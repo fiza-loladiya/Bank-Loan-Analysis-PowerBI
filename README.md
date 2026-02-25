@@ -2,6 +2,20 @@
 
 An end-to-end **Bank Loan Portfolio Analysis** project where I used **MS SQL Server** for querying + validation and **Power BI** to build a clean, interactive dashboard with **3 pages**: **Summary, Overview, and Details**.
 
+## 🧩 Problem Statement
+
+The bank receives thousands of loan applications across different states, purposes, borrower profiles, and loan terms. However, the data is scattered and hard to monitor in a way that supports fast, accurate decisions.
+
+The key challenge is to create a single reporting system that can clearly answer:
+
+- How many loan applications are coming in, and how is it changing **Month-to-Date (MTD)** and **Month-over-Month (MoM)**?
+- How much money has been **funded** and how much has been **received** back from borrowers?
+- What portion of the portfolio is healthy (**Good Loans: Fully Paid + Current**) vs risky (**Bad Loans: Charged Off**)?
+- Which segments (state, purpose, term, grade, employment length, home ownership) are driving growth and which are increasing risk?
+- Are portfolio risk indicators like **Interest Rate** and **DTI (Debt-to-Income)** staying within acceptable levels?
+
+To solve this, the goal is to build a validated analytics solution using **SQL** for accurate calculations and **Power BI** for an interactive 3-page dashboard (Summary, Overview, Details) that enables monitoring, segmentation, and drill-down analysis of the bank’s loan portfolio.
+
 This report helps answer practical banking questions like:
 - Are loan applications increasing month over month?
 - How much has been **funded** vs **received**?
