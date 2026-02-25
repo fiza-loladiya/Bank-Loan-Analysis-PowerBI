@@ -16,14 +16,6 @@ The key challenge is to create a single reporting system that can clearly answer
 
 To solve this, the goal is to build a validated analytics solution using **SQL** for accurate calculations and **Power BI** for an interactive 3-page dashboard (Summary, Overview, Details) that enables monitoring, segmentation, and drill-down analysis of the bank’s loan portfolio.
 
-This report helps answer practical banking questions like:
-- Are loan applications increasing month over month?
-- How much has been **funded** vs **received**?
-- What portion of loans are healthy (**Fully Paid / Current**) vs risky (**Charged Off**)?
-- Which **states, purposes, terms, and borrower profiles** drive most applications?
-- Are **Interest Rate** and **DTI (Debt-to-Income)** staying under control?
-
-
 ## 📌 Project Background (Why this matters)
 
 Banks handle thousands of loans, but raw data alone doesn’t help. The real need is a dashboard that clearly shows:
